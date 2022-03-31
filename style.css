@@ -1,0 +1,103 @@
+@import url("components/card.css");
+
+
+#profile {
+	object-fit: cover;
+	border-radius: 50%;
+    border: 5px solid #AA5B48;
+}
+
+#title {
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 7px;
+	font-size: 64px;
+	margin-block-start: 1em;
+    margin-block-end: 0.5em;
+    color: #201625;
+}
+
+body {
+	text-align: center;
+	background-color: #C69288;
+}
+
+.text_main {
+	margin: 0px auto;
+	padding: 50px 50px 50px 50px;
+	width: 815px;
+	z-index: 100;
+}
+
+#description {
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	display: block;
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #FFE8DE;
+}
+
+#quote {
+	font-family: 'Special Elite', cursive;
+	font-size: 25px;
+	margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #FFE8DE;
+}
+
+#signature {
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	text-align: right;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 1em;
+    color: #FFE8DE;
+}
+
+#experiences {
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	display: block;
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #FFE8DE;
+}
+
+a {
+	color: #6584AC;
+	font-size: 20px;
+}
+
+.card-flex{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between; ;
+	margin-top: 2px;
+}
+
+.card img{
+	border-radius: 5px;
+	width: 250px;
+	text-align: center;
+    background-color: #b39089
+
+}
+
+.card{
+	text-align: center;
+	border-radius: 7px;
+	padding: 15px;
+	background-color: #b39089;
+}
+
